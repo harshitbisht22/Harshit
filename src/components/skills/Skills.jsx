@@ -1,8 +1,7 @@
 import React from 'react'
 import './skills.css'
 import Frontend from './Frontend'
-import Backend from './Backend'
-import Other from './Other'
+
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -10,8 +9,7 @@ const Skills = () => {
       <span className="section__subtitle">My Technical Level</span>
       <div className="skills__container container grid">
          <Frontend />
-         {/* <Backend />
-         <Other/> */}
+
       </div>
     </section>
   )

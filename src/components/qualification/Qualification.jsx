@@ -1,13 +1,7 @@
 import React from "react";
 import "./qualification.css";
-import { useState } from "react";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
-
-  const toggleTab = (index) => {
-    setToggleState(index);
-  };
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
@@ -15,13 +9,7 @@ const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div
-            className={
-              toggleState === 1
-                ? "qualification__button qualification__active button--flex"
-                : "qualification__button button--flex"
-            }
-          >
+          <div className="qualification__button qualification__active button--flex">
             <i className="uil uil-graduation-cap qualification__icon"> </i>{" "}
             Education
           </div>
@@ -40,19 +28,12 @@ const Qualification = () => {
         </div>
 
         <div className="qualification__sections">
-          <div
-            className={
-              toggleState === 1
-                ? "qualification__content qualification__content-active"
-                : "qualification__content "
-            }
-           
-          >
+          <div className="qualification__content qualification__content-active">
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">MCA</h3>
                 <span className="qualification__subtitle">
-                Galgotias College of Engineering & Technology
+                  Galgotias College of Engineering & Technology
                 </span>
                 <div className="qualification__calendar">
                   <i class="uil uil-calendar-alt"></i>2017-2019
@@ -74,7 +55,9 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">BCA</h3>
-                <span className="qualification__subtitle">SSJ Campus Almora,(Kumaun University)</span>
+                <span className="qualification__subtitle">
+                  SSJ Campus Almora,(Kumaun University)
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2014-2017
                 </div>
@@ -82,9 +65,11 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
-            <div>
+              <div>
                 <h3 className="qualification__title">Intermediate</h3>
-                <span className="qualification__subtitle">Beersheba School Almora,(CBSE)</span>
+                <span className="qualification__subtitle">
+                  Beersheba School Almora,(CBSE)
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2014
                 </div>
@@ -103,15 +88,15 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
-
               <div>
                 <h3 className="qualification__title">High school</h3>
-                <span className="qualification__subtitle">K.V Ranikhet(CBSE)</span>
+                <span className="qualification__subtitle">
+                  K.V Ranikhet(CBSE)
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2012
                 </div>
               </div>
-              
             </div>
           </div>
 
