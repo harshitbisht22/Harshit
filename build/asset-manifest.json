@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21b5724d.css",
+    "main.js": "/static/js/main.b69bae03.js",
+    "static/media/profile.jpg": "/static/media/profile.4e129fabf0958b22e0bf.jpg",
+    "static/media/harshit-Cv.pdf": "/static/media/harshit-Cv.938523b338873bbaed20.pdf",
+    "index.html": "/index.html",
+    "main.21b5724d.css.map": "/static/css/main.21b5724d.css.map",
+    "main.b69bae03.js.map": "/static/js/main.b69bae03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21b5724d.css",
+    "static/js/main.b69bae03.js"
+  ]
+}
