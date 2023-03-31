@@ -25,10 +25,12 @@
     margin-bottom: var(--mb-2);
 }
 
+
+
 .footer__social{
     display: flex;
     justify-content: center;
-    column-gap: 1.5rem;
+    column-gap: 2rem;
 }
 
 .footer__social-link{

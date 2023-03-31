@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./services.css";
+import "./experience.css";
 
-const Services = () => {
+const Experience = () => {
   const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
@@ -216,4 +216,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Experience;

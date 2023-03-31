@@ -16,6 +16,7 @@ const About = () => {
           <p className="about__description">
           To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field of computer science while allowing me to add value to the dynamics of the company.
           </p>
+          
           <a download="" href={CV} className="button button--flex">
             Download Cv
             <svg

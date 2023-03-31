@@ -59,9 +59,9 @@ const Data = () => {
       <h3 className="home__subtitle"> Web Developer/ Tester</h3>
 
       <p className="home__description">
-      To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field of computer science while allowing me to add value to the dynamics of the company.
+      "As a developer, I enjoy bringing ideas to life through code and creating digital experiences that delight users, while as a tester, my goal is to ensure that the software is reliable and user-friendly by putting it through rigorous testing."
       </p>
-      <a href="#contact" className="button button-flex">
+      <a href="mailto:harshit.bisht.22@gmail.com" className="button button-flex">
         say Hello
         <svg
           class="button__icon"
