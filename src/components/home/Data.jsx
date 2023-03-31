@@ -61,7 +61,7 @@ const Data = () => {
       <p className="home__description">
       To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field of computer science while allowing me to add value to the dynamics of the company.
       </p>
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button-flex">
         say Hello
         <svg
           class="button__icon"

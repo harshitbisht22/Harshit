@@ -30,7 +30,7 @@ import { useState } from 'react'
 
           <li className="nav__item">
             <a href="#services" className="nav__link">
-              <i className="uil uil-briefse-alt nav_i_con"> </i>Experience
+              <i className="uil uil-briefse-alt nav__icon"> </i>Experience
             </a>
           </li>
 

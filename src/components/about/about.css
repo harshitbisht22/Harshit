@@ -6,9 +6,9 @@
 
 .about__img{
     width: 350px;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     justify-self: center;
-    border-color: var(--title-color)
+    border-color: var(--container-color);
 }
 
 .about__info{
