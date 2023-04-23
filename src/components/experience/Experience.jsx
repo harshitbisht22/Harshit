@@ -104,7 +104,7 @@ const Experience = () => {
               ></i>
               <h3 className="services__modal-title">Web Development</h3>
               <p link=" " className="services__modal-description">
-                Lorem ipsum dolor sit amet consectetur.
+              Web Development projects 
               </p>
               <ui className="services__modal-services grid">
                 <li className="services__modal-services">
@@ -128,6 +128,18 @@ const Experience = () => {
                     Weather App
                   </a>
                 </li>
+
+                <li className="services__modal-services">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <a
+                    href="https://joke-generator-rouge.vercel.app/"
+                    target="_blank"
+                    className="services_modal-info"
+                  >
+                    Joke Generator
+                  </a>
+                </li>
+
               </ui>
             </div>
           </div>
